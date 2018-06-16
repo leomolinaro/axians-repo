@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">Github users</mat-toolbar>
+<div class="page-content">
+  <div class="search-form">
+    <mat-form-field>
+      <mat-label>Username</mat-label>
+      <input
+        matInput
+        placeholder="username..."
+        autocomplete="off"
+        [formControl]="usernameControl"
+        (keyup.enter)="searchUser()"
+        (keyup.esc)="clear()">
+      <mat-icon matSuffix class="clickable" (click)="clear()">clear</mat-icon>
+      <mat-hint>Please, enter a valid username.</mat-hint>
+      <mat-error *ngIf="usernameControl.errors?.notFound">Username not found</mat-error>
+    </mat-form-field>
+    <button type="button" class="search-button" mat-raised-button color="accent" (click)="searchUser()">
+      <mat-icon>search</mat-icon>
+      Search
+    </button>
+  </div>
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+  <ng-container *ngIf="user">
+    <user-card [user]="user"></user-card>
+  </ng-container>
+</div>

@@ -1,0 +1,20 @@
+.user-card {
+  max-width: 400px;
+}
+
+.user-avatar {
+  height: 150px;
+  width: 150px;
+}
+
+.user-name {
+  font-size: 25px
+}
+
+.user-location, .user-company {
+  font-size: 20px
+}
+
+.user-bio {
+  padding-top: 15px
+}
