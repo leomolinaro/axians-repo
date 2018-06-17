@@ -1,6 +1,6 @@
 # Github Users PWA
 
-This is an Angular app that displays the information details of Github users. The app satisfies the requirements of a PWA (Progressive Web Application) (see the Build instructions to verify the right behaviour). The project contains unit tests of its web components.
+This is an Angular app that displays the information details of Github users. The app satisfies the requirements of a PWA (Progressive Web Application) (see the Deployment server instructions to verify the right behaviour). The project contains unit tests of its web components.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
@@ -33,6 +33,8 @@ Inside the project folder, run `npm install` to install all the required depende
 ## Build (Angular CLI only)
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/ng-github-users-pwa` directory. Use the `--prod` flag for a production build.
+
+## Deployment server
 
 To run the deployed app and verify the PWA features, install for instance the [http-server](https://www.npmjs.com/package/http-server) package by running `npm install -g http-server`. Navigate to the `dist/ng-github-users-pwa` directory and run `http-server -p 8080` to public the app at [http://localhost:8080/](http://localhost:8080/).
 
