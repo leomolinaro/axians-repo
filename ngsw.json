@@ -1,17 +1,17 @@
 {
   "configVersion": 1,
-  "index": "https://leomolinaro.github.io/axians-repo/index.html",
+  "index": "'https://leomolinaro.github.io/axians-repo/'/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://leomolinaro.github.io/axians-repo/index.html",
-        "https://leomolinaro.github.io/axians-repo/main.67e303e7d8b915a56f63.js",
-        "https://leomolinaro.github.io/axians-repo/polyfills.7a0e6866a34e280f48e7.js",
-        "https://leomolinaro.github.io/axians-repo/runtime.a66f828dca56eeb90e02.js",
-        "https://leomolinaro.github.io/axians-repo/styles.509049118a60f23e8361.css"
+        "'https://leomolinaro.github.io/axians-repo/'/index.html",
+        "'https://leomolinaro.github.io/axians-repo/'/main.67e303e7d8b915a56f63.js",
+        "'https://leomolinaro.github.io/axians-repo/'/polyfills.7a0e6866a34e280f48e7.js",
+        "'https://leomolinaro.github.io/axians-repo/'/runtime.a66f828dca56eeb90e02.js",
+        "'https://leomolinaro.github.io/axians-repo/'/styles.509049118a60f23e8361.css"
       ],
       "patterns": []
     },
@@ -20,27 +20,27 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://leomolinaro.github.io/axians-repo/assets/icons/axians-favicon.ico",
-        "https://leomolinaro.github.io/axians-repo/assets/icons/tile150x150.png",
-        "https://leomolinaro.github.io/axians-repo/assets/icons/tile310x150.png",
-        "https://leomolinaro.github.io/axians-repo/assets/icons/tile310x310.png",
-        "https://leomolinaro.github.io/axians-repo/assets/icons/tile70x70.png"
+        "'https://leomolinaro.github.io/axians-repo/'/assets/icons/axians-favicon.ico",
+        "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile150x150.png",
+        "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile310x150.png",
+        "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile310x310.png",
+        "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile70x70.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://leomolinaro.github.io/axians-repo/assets/icons/axians-favicon.ico": "347c096d5738047f89991f2bb87f493999e8bed6",
-    "https://leomolinaro.github.io/axians-repo/assets/icons/tile150x150.png": "9d47b92a1bca70396d4efc967f13a0f310a6c662",
-    "https://leomolinaro.github.io/axians-repo/assets/icons/tile310x150.png": "6a07dac3c61780bb812cedc940ad681269dc31ec",
-    "https://leomolinaro.github.io/axians-repo/assets/icons/tile310x310.png": "8aec89023396eacde436957c87b1e6b7e04e765b",
-    "https://leomolinaro.github.io/axians-repo/assets/icons/tile70x70.png": "a6253d30fa4eb60f0d4b7a4385f9dd9bd7954f9d",
-    "https://leomolinaro.github.io/axians-repo/index.html": "7e7905efd9733aeb53f624463892b12d581a2738",
-    "https://leomolinaro.github.io/axians-repo/main.67e303e7d8b915a56f63.js": "1a3523f3d2f9c3273bb20e63e11bbe6da8d9d5b5",
-    "https://leomolinaro.github.io/axians-repo/polyfills.7a0e6866a34e280f48e7.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
-    "https://leomolinaro.github.io/axians-repo/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "https://leomolinaro.github.io/axians-repo/styles.509049118a60f23e8361.css": "39901e29f891a3c8c348ef744f6558908834d29d"
+    "'https://leomolinaro.github.io/axians-repo/'/assets/icons/axians-favicon.ico": "347c096d5738047f89991f2bb87f493999e8bed6",
+    "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile150x150.png": "9d47b92a1bca70396d4efc967f13a0f310a6c662",
+    "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile310x150.png": "6a07dac3c61780bb812cedc940ad681269dc31ec",
+    "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile310x310.png": "8aec89023396eacde436957c87b1e6b7e04e765b",
+    "'https://leomolinaro.github.io/axians-repo/'/assets/icons/tile70x70.png": "a6253d30fa4eb60f0d4b7a4385f9dd9bd7954f9d",
+    "'https://leomolinaro.github.io/axians-repo/'/index.html": "6b53a2358c1f2a85cf8608cff25b4a9ed2b0de8e",
+    "'https://leomolinaro.github.io/axians-repo/'/main.67e303e7d8b915a56f63.js": "1a3523f3d2f9c3273bb20e63e11bbe6da8d9d5b5",
+    "'https://leomolinaro.github.io/axians-repo/'/polyfills.7a0e6866a34e280f48e7.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
+    "'https://leomolinaro.github.io/axians-repo/'/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "'https://leomolinaro.github.io/axians-repo/'/styles.509049118a60f23e8361.css": "39901e29f891a3c8c348ef744f6558908834d29d"
   },
   "navigationUrls": [
     {
