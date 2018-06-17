@@ -1,5 +1,7 @@
 # Github Users PWA
 
+This is an Angular App that displays the information details of github users. The app satisfies the requirements of a PWA (Progressive Web Application). The project contains Unit Tests of its Web Components.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Demo
