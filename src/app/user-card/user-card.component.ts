@@ -8,6 +8,7 @@ import { User } from '../models/user';
 })
 export class UserCardComponent {
 
+  /**Model dell'utente di cui visualizzare le informazioni.*/
   @Input() user: User;
 
   constructor() { }

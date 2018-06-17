@@ -15,6 +15,6 @@
   font-size: 20px
 }
 
-.user-bio {
+mat-card-content {
   padding-top: 15px
 }

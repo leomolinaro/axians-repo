@@ -10,12 +10,22 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent {
   
-  usernameControl = new FormControl("")
+  /**Controller dell'input box di ricerca.*/
+  usernameControl = new FormControl("");
+
+  /**Flag che indica lo stato di caricamento.*/
   isLoading: boolean = false;
+
+  /**Il model dell'utente trovato.*/
   user: User = null;
 
-  constructor(private userService: UserService) {}
+  constructor(private userService: UserService) { }
 
+  /**
+   * Ricerca l'utente a partire dallo username specificato nell'input box.
+   * Imposta lo stato di caricamento durante il reperimento del dato da API.
+   * Gestisce lo stato di validità dell'input box, a seconda che l'username sia stato trovato o meno.
+   */
   searchUser() {
     this.isLoading = true;
     this.user = null;
@@ -25,6 +35,7 @@ export class AppComponent {
     .subscribe({
       next: user => {
         this.user = user;
+        this.usernameControl.markAsTouched ();
         this.isLoading = false;
       },
       error: error => {
@@ -35,6 +46,9 @@ export class AppComponent {
     });
   }
 
+  /**
+   * Pulisce l'input box e l'utente precedentemente trovato.
+   */
   clear() {
     this.user = null;
     this.usernameControl.reset();
