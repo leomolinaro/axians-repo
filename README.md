@@ -20,6 +20,10 @@ Visit a demo of the project at this [page](https://leomolinaro.github.io/axians-
 
 Run `git clone https://github.com/leomolinaro/axians-repo.git` to clone the repository in a local folder.
 
+## Deployment server
+
+To run the deployed app and verify the PWA features, install for instance the [http-server](https://www.npmjs.com/package/http-server) package by running `npm install -g http-server`. Navigate to the `dist/ng-github-users-pwa` directory and run `http-server -p 8080` to public the app at [http://localhost:8080/](http://localhost:8080/).
+
 ## Development server
 
 ### Without Angular CLI
@@ -32,11 +36,9 @@ Inside the project folder, run `npm install` to install all the required depende
 
 ## Build (Angular CLI only)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/ng-github-users-pwa` directory. Use the `--prod` flag for a production build.
+The repository already contains the project built in production mode.
 
-## Deployment server
-
-To run the deployed app and verify the PWA features, install for instance the [http-server](https://www.npmjs.com/package/http-server) package by running `npm install -g http-server`. Navigate to the `dist/ng-github-users-pwa` directory and run `http-server -p 8080` to public the app at [http://localhost:8080/](http://localhost:8080/).
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/ng-github-users-pwa` directory. Use the `--prod` flag for a production build. Note that the PWA feature are fully supported only in a production build.
 
 ## Running unit tests (Angular CLI only)
 
