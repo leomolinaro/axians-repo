@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Demo
-Visit a demo of the project at this [page](https://leomolinaro.github.io/axians-repo/).
+Visit a demo of the project at this [page](https://leomolinaro.github.io/axians-repo/dist/ng-githubusers-pwa).
 
 ## Development server
 
